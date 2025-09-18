@@ -1,0 +1,6 @@
+Trabalho em dupla: Criar um aplicação com RMI onde um computador será o Servidor e outro será o cliente. 
+
+A aplicação deverá emular pelo menos 5 funções de um controle remoto, conforme a analogia apresentada em sala de aula.
+
+A tarefa será avaliada da seguinte forma: 50% código no github e 50% apresentação da aplicação executando para o professor em sala de aula.
+
