@@ -9,3 +9,7 @@ Aplicação de controle remoto usando Java RMI com funcionalidades de TV.
 - ✅ Próximo Canal
 - ✅ Canal Anterior
 - ✅ Ver Status
+
+## Alunos
+- Arthur Renato Normando Vasconcelos
+- Bruno Vaz Ferreira
