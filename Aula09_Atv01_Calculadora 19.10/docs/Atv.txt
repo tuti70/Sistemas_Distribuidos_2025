@@ -1,3 +1,23 @@
-Desenvolva um projeto para calcular a idade de uma pessoa a partir da sua data de nascimento. O usuário entrar com a data de nascimento e o nome (sobrenome opcional) e recebe a idade da pessoa.
+Continue o projeto da Calculadora incluindo as novas funcionalidades a seguir:
 
-A resposta deve ser o Nome da pessoa e sobrenome (caso tenha informado) e a quantidade de anos, meses e dias que essa pessoa possui.
+1) Subtração
+
+2) Multiplicação
+
+3) Divisão
+
+4) Raiz Quadrada
+
+5) Raiz cúbica de um número.  Ex: Raiz Cúbica de 8 -> 2
+
+6) Potencia de um número.  Ex: 2 elevado ao cubo -> 8
+
+7) Converter um número para binário. Ex.: Decimal 13 -> Binário 1101
+
+8) Elevar 10 a um potência. Ex: 10 elevado a 3 -> 1000
+
+9) Calcular o Fatorial de um número. Ex: Fatorial de 5 -> 120
+
+10) Calcula o valor de Pi. Ex: PI -> 3,141592653
+
+Obs.: Para a próxima aula será indispensável que TODAS AS FUNCIONALIDADES DA ATIVIDADE CALCULADORA ESTEJAM IMPLEMENTADAS, pois a partir desse projeto iremos implementar as novas funcionalidades, organizar para o padrão MVC, Incluir o Controle de Excessões.
