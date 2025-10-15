@@ -67,9 +67,11 @@ Agora, para iniciar o servidor, use o comando java diretamente. Ele irá executa
 java -cp target/votacao-distribuida-1.0-SNAPSHOT.jar br.com.sistemavotacao.server.VotingServer
 ```
 O servidor será iniciado. Lembre-se de digitar abrir no console dele para começar a votação.
- 
+
 ### 6.3. Execute o Cliente
 Em um novo terminal, execute o comando abaixo para iniciar um cliente. Você pode abrir vários terminais, no codigo limitado a 10, e rodar este comando em cada um para simular múltiplos eleitores.
 ```diff
 java -cp target/votacao-distribuida-1.0-SNAPSHOT.jar br.com.sistemavotacao.client.VotingClient
 ```
+
+ALUNOS: Arthur Renato Normando Vasconcelos, Bruno Vaz Ferreira

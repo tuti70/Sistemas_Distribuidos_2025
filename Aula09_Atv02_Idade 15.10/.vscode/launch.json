@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-IdadeApplication<Idade>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.otuti.Idade.IdadeApplication",
+            "projectName": "Idade",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
