@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * Exceção lançada quando não é encontrada uma taxa de conversão
- * para as moedas ou unidades solicitadas
+ * para as moedas solicitadas
  */
 @ResponseStatus(HttpStatus.NOT_FOUND)
 public class ConversionRateNotFoundException extends RuntimeException {

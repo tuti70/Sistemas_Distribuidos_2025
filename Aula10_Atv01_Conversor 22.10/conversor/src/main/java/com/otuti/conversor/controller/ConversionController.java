@@ -5,11 +5,10 @@ import org.springframework.web.bind.annotation.*;
 import com.otuti.conversor.service.ConversionService;
 
 /**
- * Controller REST que expõe os endpoints da API de conversão
- * Responsável por receber as requisições HTTP e delegar para o serviço
+ * Controller REST que expõe os endpoints da API de conversão de moedas
  */
 @RestController
-@RequestMapping("/convert")
+@RequestMapping("/api/convert")
 public class ConversionController {
 
     @Autowired
@@ -23,7 +22,7 @@ public class ConversionController {
      * @param amount Valor a ser convertido
      * @return Valor convertido
      * 
-     *         Exemplo de uso: GET /convert/currency?from=USD&to=BRL&amount=100
+     *         Exemplo: GET /api/convert/currency?from=USD&to=BRL&amount=100
      */
     @GetMapping("/currency")
     public Double convertCurrency(
@@ -32,24 +31,5 @@ public class ConversionController {
             @RequestParam Double amount) {
 
         return conversionService.convertCurrency(from, to, amount);
-    }
-
-    /**
-     * Endpoint para conversão de temperaturas
-     * 
-     * @param from  Unidade de origem (C, F, K)
-     * @param to    Unidade de destino (C, F, K)
-     * @param value Valor a ser convertido
-     * @return Valor convertido
-     * 
-     *         Exemplo de uso: GET /convert/unit/temperature?from=C&to=F&value=37
-     */
-    @GetMapping("/unit/temperature")
-    public Double convertTemperature(
-            @RequestParam String from,
-            @RequestParam String to,
-            @RequestParam Double value) {
-
-        return conversionService.convertTemperature(from, to, value);
     }
 }

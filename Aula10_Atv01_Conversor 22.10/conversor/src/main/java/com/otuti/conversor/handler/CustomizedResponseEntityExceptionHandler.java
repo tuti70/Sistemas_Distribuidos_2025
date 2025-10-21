@@ -30,9 +30,9 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
         return new ResponseEntity<>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
-    // Manipula exceções de unidades não suportadas
-    @ExceptionHandler(UnsupportedUnitException.class)
-    public final ResponseEntity<ExceptionResponse> handleUnsupportedUnitExceptions(
+    // Manipula exceções de moedas não suportadas
+    @ExceptionHandler(UnsupportedCurrencyException.class)
+    public final ResponseEntity<ExceptionResponse> handleUnsupportedCurrencyExceptions(
             Exception ex, WebRequest request) {
         ExceptionResponse exceptionResponse = new ExceptionResponse(
                 new Date(),

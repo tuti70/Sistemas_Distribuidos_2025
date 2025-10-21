@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * Exceção lançada quando valores negativos são informados
- * Aplicável para valores monetários e algumas conversões de unidades
+ * para conversão monetária
  */
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class NegativeAmountNotAllowedException extends RuntimeException {
