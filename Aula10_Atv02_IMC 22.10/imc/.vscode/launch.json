@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ImcApplication<imc>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.otuti.imc.ImcApplication",
+            "projectName": "imc",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
