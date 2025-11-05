@@ -1,0 +1,27 @@
+Conversor de Moedas e Unidades
+
+- Descrição: API que converte valores entre moedas (USD, BRL, EUR) ou unidades (km↔mi, °C↔°F).
+
+- Endpoints de exemplo:
+
+  - Método: GET /convert/currency?from=USD&to=BRL&amount=100
+
+ - Método: GET /convert/unit/temperature?from=C&to=F&value=37
+
+- Exceções personalizadas:
+
+  - UnsupportedUnitException (quando a unidade/moeda não é suportada)
+
+  - NegativeAmountNotAllowedException (valores negativos)
+
+  - ConversionRateNotFoundException (taxa ausente)
+
+- Regras/validações (Validator):
+
+  - Verificar formato e lista de unidades/moedas suportadas
+
+  - Limites máximos de valor
+
+- Controller + Service:
+
+  - Controller recebe a requisição e delega para um serviço de conversão
