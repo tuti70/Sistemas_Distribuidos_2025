@@ -1,0 +1,53 @@
+Implemente a persistância na atividade da Aula 11Considere a aplicação da aula 11 com as Entidades Aluno, Professor, Funcionário e Departamento. 
+
+Acrescente as seguintes entidades com seus respectivos atributos.
+
+--------------------------------
+
+Universidade
+
+id_unversidade (UUID ou inteiro)
+
+nome_universidade
+
+sigla_universidade
+
+tipo (pública ou privada)
+
+---------------------
+
+Carteira_de_Estudante
+
+id_carteira
+
+numero carteira
+
+data_de_emissao
+
+data de validade
+
+---------------
+
+Crie a aplicação com os seguintes relacionamentos:
+
+N Alunos para 1 Professor.
+
+N Professores para 1 Departamento.
+
+N Funcionários para 1 Departamento.
+
+N Professores para N Funcionários.
+
+N Alunos para N Funcionários.
+
+N Departamentos para 1 Universidade.
+
+N Alunos para 1 Departamento.
+
+1 Carteira para 1 Aluno.
+
+1 Aluno para 1 Carteira.
+
+
+
+Obs.: É necessário colocar a figura do DER da API no PDF com o Link do GitHub.
